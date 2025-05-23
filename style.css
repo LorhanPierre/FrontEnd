@@ -1,47 +1,21 @@
-h1{
-    width: 375px;
-    height: 50px;
-    margin: 0px;
-    border:20px;
-    padding:0%;
-    margin-left: calc(50% - 6em);    
-    margin-top: 2rem;
-    margin-bottom: 2rem;
-    background-color: blue;
+header{
+    display: flex;
+    align-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(24, 24, 24);   
+    color: antiquewhite;
 }
 
-#txt{
-
-    background-color: aquamarine;
-    width: 87%;
+.ast{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
+
 
 #ast{
-
-    max-width: 70%;
-}
-#rdr{
-    width: 70%;
-    height: auto;
-}
-#sot{
-    width:70%;
-
-}
-#got{
-    max-width: 70%;
-    display:flex;
-    margin:0px;
-    
-}
-.imagens{
-    margin:0px;
-    margin-left:23%;
-}
-footer{
-    background-color: cadetblue s;
-}
-.ImagemArtigo{
-    max-width: 100%;
-    width: 100%;
+    max-width: 50%;
+    align-self: flex-end;
 }
